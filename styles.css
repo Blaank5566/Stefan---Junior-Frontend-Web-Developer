@@ -1,0 +1,48 @@
+:root {
+  --bg-main: #ffffff;
+  --bg-section: #f8f9fa;
+  --text-main: #212529;
+  --card-bg: #ffffff;
+}
+
+body.dark {
+  --bg-main: #121212;
+  --bg-section: #1e1e1e;
+  --text-main: #f1f1f1;
+  --card-bg: #2a2a2a;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+  background-color: var(--bg-section) !important;
+  transition: background-color 0.3s ease;
+}
+
+.section {
+  background-color: var(--bg-section);
+  transition: background-color 0.3s ease;
+}
+
+.card {
+  background-color: var(--card-bg);
+  color: var(--text-main);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.hero-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
