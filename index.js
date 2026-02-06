@@ -34,7 +34,7 @@ const elements = {
 
 const translations = {
   en: {
-    navbarBrand: "Stefan",
+    navbarBrand: "Stefan Alcaide Pavlou",
     cvButton: "📄 CV",
     themeDark: "🌙 Dark",
     themeLight: "☀️ Light",
@@ -65,7 +65,7 @@ const translations = {
     linkedinLink: "LinkedIn"
   },
   de: {
-    navbarBrand: "Stefan",
+    navbarBrand: "Stefan Alcaide Pavlou",
     cvButton: "📄 CV",
     themeDark: "🌙 Dunkel",
     themeLight: "☀️ Hell",
@@ -134,3 +134,4 @@ langBtn.addEventListener("click", () => {
 
 // Initial theme button
 updateThemeButtonText();
+
