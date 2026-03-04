@@ -41,6 +41,10 @@ body {
   border-radius: 50%;
 }
 
+.navbar-brand{
+  color: var(--text-main);
+  transition: color 0.3s ease;
+}
 .hero-img {
   width: 250px;
   height: 250px;
