@@ -44,7 +44,7 @@ const translations = {
     langBtn: "DE",
     title: "Junior Frontend Web Developer",
     description: "I build clean, responsive web applications with modern technologies.",
-    intro: "I am currently retraining as an IT specialist for application development with a focus on front-end web development. My focus is on developing modern, user-friendly web interfaces and cleanly structured, maintainable applications.My passion for gaming and technology has been with me since I was about three years old. Early on, this developed into a deep interest in the technical background of digital systems. This curiosity still shapes me today: I have a keen thirst for knowledge, am constantly learning new things, and like to get to the bottom of things—especially in the world of software and web development.",
+    intro: "I am currently retraining as an IT specialist for application development with a focus on front-end web development. My focus is on developing modern, user-friendly web interfaces and cleanly structured, maintainable applications.My passion for gaming and technology has been with me since I was about three years old. Early on, this developed into a deep interest in the technical background of digital systems. This curiosity still shapes me today: I have a keen thirst for knowledge, am constantly learning new things, and like to get to the bottom of things especially in the world of software and web development.",
     skillsTitle: "Skills",
     skillsFrontend: "Frontend",
     skillsFrontendDesc: "HTML, CSS, Bootstrap, JavaScript",
