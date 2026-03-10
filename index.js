@@ -78,7 +78,7 @@ const translations = {
     langBtn: "EN",
     title: "Junior Frontend Webentwickler",
     description: "Ich entwickle saubere und responsive Webanwendungen.",
-    intro: "Ich befinde mich aktuell in einer Umschulung zum Fachinformatiker für Anwendungsentwicklung (FIAE) mit Schwerpunkt auf Frontend-Webentwicklung. Mein Fokus liegt auf der Entwicklung moderner, benutzerfreundlicher Weboberflächen sowie sauber strukturierter und wartbarer Anwendungen.Meine Leidenschaft für Gaming und Technologie begleitet mich, seit ich etwa drei Jahre alt bin. Schon früh entwickelte sich daraus ein tiefes Interesse für die technischen Hintergründe digitaler Systeme. Diese Neugier prägt mich bis heute: Ich habe einen ausgeprägten Wissensdurst, lerne ständig Neues und gehe Dingen gerne auf den Grund , besonders in der Welt der Software- und Webentwicklung.",
+    intro: "Ich befinde mich aktuell in einer Umschulung zum Fachinformatiker für Anwendungsentwicklung (FIAE) mit Schwerpunkt auf Frontend-Webentwicklung. Mein Fokus liegt auf der Entwicklung moderner, benutzerfreundlicher Weboberflächen sowie sauber strukturierter und wartbarer Anwendungen.Meine Leidenschaft für Gaming und Technologie begleitet mich, seit ich etwa drei Jahre alt bin. Schon früh entwickelte sich daraus ein tiefes Interesse für die technischen Hintergründe digitaler Systeme. Diese Neugier prägt mich bis heute: Ich habe einen ausgeprägten Wissensdurst, lerne ständig Neues und gehe Dingen gerne auf den Grund , besonders in der Welt der Software und Webentwicklung.",
     skillsTitle: "Fähigkeiten",
     skillsFrontend: "Frontend",
     skillsFrontendDesc: "HTML, CSS, Bootstrap, JavaScript",
