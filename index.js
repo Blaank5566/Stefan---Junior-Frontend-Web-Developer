@@ -40,7 +40,7 @@ const elements = {
 const translations = {
   en: {
     navbarBrand: "Stefan Alcaide Pavlou",
-    cvButton: "📄 CV",
+    cvButton: "📄 Download Resume",
     themeDark: "🌙 Dark",
     themeLight: "☀️ Light",
     langBtn: "DE",
@@ -76,7 +76,7 @@ const translations = {
   },
   de: {
     navbarBrand: "Stefan Alcaide Pavlou",
-    cvButton: "📄 CV",
+    cvButton: "📄 Lebenslauf Herunterladen",
     themeDark: "🌙 Dunkel",
     themeLight: "☀️ Hell",
     langBtn: "EN",
