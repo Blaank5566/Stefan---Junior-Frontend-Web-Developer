@@ -34,6 +34,18 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+
+
+.card-img-top {
+  height: 200px;        
+  width: 100%;          
+  object-fit: contain;   
+  background-color: #f8f9fa;  
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  padding: 10px;        
+}
+
 .navbar-brand img {
   width: 40px;
   height: 40px;
@@ -45,6 +57,7 @@ body {
   color: var(--text-main);
   transition: color 0.3s ease;
 }
+
 .hero-img {
   width: 250px;
   height: 250px;
