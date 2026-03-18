@@ -47,22 +47,43 @@ body {
   box-shadow: 20px 20px 40px rgba(0,0,0,0.2);
 }
 
+/* Ensure all card children participate in 3D */
+.card * {
+  transform-style: preserve-3d;
+}
+
+/* Card content depth fixes */
+.card-body {
+  position: relative;
+  z-index: 2;
+  transform: translateZ(20px);
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  background-color: var(--bg-section);
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  transform: translateZ(15px);
+}
+
+.card:hover .card-img-top {
+  transform: translateZ(15px) scale(1.05);
+}
+
+/* Make card link wrappers clean & clickable */
 .card-link-wrapper {
   text-decoration: none;
   color: inherit;
   display: block;
   cursor: pointer;
 }
-.card-img-top {
-  height: 200px;        
-  width: 100%;          
-  object-fit: contain;   
-  background-color: #f8f9fa;  
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  padding: 10px;        
-}
 
+/* Navbar brand */
 .navbar-brand img {
   width: 40px;
   height: 40px;
@@ -70,11 +91,12 @@ body {
   border-radius: 50%;
 }
 
-.navbar-brand{
+.navbar-brand {
   color: var(--text-main);
   transition: color 0.3s ease;
 }
 
+/* Hero image */
 .hero-img {
   width: 250px;
   height: 250px;
